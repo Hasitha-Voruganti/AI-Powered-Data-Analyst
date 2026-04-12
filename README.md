@@ -1,4 +1,4 @@
-# DataMind — AI Data Analyst (Free, powered by Groq)
+# DataMind — AI Data Analyst (powered by Groq)
 
 Full-stack AI data analysis platform. Upload any dataset → auto-clean → visualize → chat with AI.
 
