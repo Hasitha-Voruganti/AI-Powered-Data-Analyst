@@ -7,6 +7,28 @@ Full-stack AI data analysis platform. Upload any dataset → auto-clean → visu
 - **Backend:** FastAPI + Pandas + NumPy + Groq AI (free)
 - **Frontend:** React 18 + Vite + Chart.js + Framer Motion
 
+## 📸 Screenshots
+
+### AI Chat
+
+![AI Chat](screenshots/ai-chat.jpg)
+
+### Data Cleaning
+
+![Data Cleaning](screenshots/data_cleaning.jpg)
+
+### File Upload
+
+![File Upload](screenshots/file_upload.jpg)
+
+### Overview Dashboard
+
+![Overview](screenshots/overview_.jpg)
+
+### Data Visualization
+
+![Visualization](screenshots/visualize.jpg)
+
 ## Setup (Windows PowerShell)
 
 ### 1. Backend
