@@ -1,15 +1,70 @@
-# DataMind — AI Data Analyst (powered by Groq)
+# 📊 DataMind — AI Data Analyst
 
-Full-stack AI data analysis platform. Upload any dataset → auto-clean → visualize → chat with AI.
+> Upload any dataset. Clean it. Visualize it. Chat with it.  
+> Powered by **Groq** (free) · Built with **FastAPI** + **React**
 
-## Tech Stack
+---
 
-- **Backend:** FastAPI + Pandas + NumPy + Groq AI (free)
-- **Frontend:** React 18 + Vite + Chart.js + Framer Motion
+## 🚀 What is DataMind?
+
+DataMind is a full-stack AI-powered data analysis platform that lets anyone
+explore, clean, and query datasets using natural language — no code required.
+
+Upload a CSV or Excel file and instantly get quality scores, statistics,
+charts, and an AI analyst you can ask anything.
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 📁 File Upload | CSV, Excel, JSON, TSV, Parquet |
+| 🔍 Auto Analysis | Column types, stats, quality score on upload |
+| 🧹 Data Cleaning | Fix nulls, duplicates, and outliers in one click |
+| 📊 6 Chart Types | Bar, Line, Scatter, Pie, Histogram, Heatmap |
+| 🤖 AI Chat | Ask questions in plain English, get exact answers |
+| 💡 Quick Actions | Full analysis, insights, anomalies, correlations |
+| ⬇ Export | Download cleaned dataset as CSV |
+
+---
+
+## 🛠 Tech Stack
+
+**Backend**
+- FastAPI · Pandas · NumPy
+- Groq API — Llama 3.1 8B (free tier)
+
+**Frontend**
+- React 18 · Vite
+- Chart.js · Framer Motion · React Markdown
+
+---
+
+## ⚡ Quick Start
+
+### 1. Clone the repo
+git clone https://github.com/yourusername/datamind.git
+
+### 2. Backend setup
+cd backend
+pip install -r requirements.txt
+set GROQ_API_KEY=your_key_here        # Windows
+export GROQ_API_KEY=your_key_here     # Mac/Linux
+uvicorn app:app --reload --port 8000
+
+### 3. Frontend setup
+cd frontend
+npm install
+npm run dev
+
+### 4. Open http://localhost:5173
+
+Get a free Groq API key at https://console.groq.com
+
+---
 
 ## 📸 Screenshots
-
-
 
 ### File Upload
 
@@ -33,55 +88,6 @@ Full-stack AI data analysis platform. Upload any dataset → auto-clean → visu
 
 
 
-## Setup (Windows PowerShell)
-
-### 1. Backend
-
-```powershell
-cd dataanalyst\backend
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
-```
-
-### 2. Frontend (new PowerShell window)
-
-```powershell
-cd dataanalyst\frontend
-npm install
-npm run dev
-```
-
-### 3. Open browser
-
-```
-http://localhost:5173
-```
-
-### 4. Test AI is working
-
-```
-http://localhost:8000/api/test-ai
-```
-
-## Get Free Groq API Key
-
-1. Go to https://console.groq.com
-2. Sign up (free, no credit card)
-3. API Keys → Create Key
-4. Copy and use in step 1 above
-
-## Features
-
-- Upload CSV, Excel, JSON, TSV, Parquet
-- Auto-detect column types and data quality
-- One-click data cleaning (nulls, duplicates, outliers)
-- 6 chart types with interactive controls
-- Correlation heatmap
-- AI chat powered by Llama 3.1 (free via Groq)
-- 6 quick AI analysis actions
-- Export cleaned CSV
 
 ## API Endpoints
 
