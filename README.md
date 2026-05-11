@@ -46,17 +46,40 @@ charts, and an AI analyst you can ask anything.
 ### 1. Clone the repo
 git clone https://github.com/yourusername/datamind.git
 
-### 2. Backend setup
-cd backend
-pip install -r requirements.txt
-set GROQ_API_KEY=your_key_here        # Windows
-export GROQ_API_KEY=your_key_here     # Mac/Linux
-uvicorn app:app --reload --port 8000
+### 2. Backend Setup
 
-### 3. Frontend setup
+```bash
+cd backend
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set environment variable
+
+# Windows (CMD)
+set GROQ_API_KEY=your_key_here
+
+# Windows (PowerShell)
+$env:GROQ_API_KEY="your_key_here"
+
+# Mac/Linux
+export GROQ_API_KEY=your_key_here
+
+# Run backend server
+uvicorn app:app --reload --port 8000
+```
+
+### 3. Frontend Setup
+
+```bash
 cd frontend
+
+# Install dependencies
 npm install
+
+# Start frontend server
 npm run dev
+```
 
 ### 4. Open http://localhost:5173
 
