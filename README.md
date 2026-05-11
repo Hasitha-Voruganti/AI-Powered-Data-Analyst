@@ -9,13 +9,7 @@ Full-stack AI data analysis platform. Upload any dataset → auto-clean → visu
 
 ## 📸 Screenshots
 
-### AI Chat
 
-![AI Chat](screenshots/ai-chat.jpg)
-
-### Data Cleaning
-
-![Data Cleaning](screenshots/data_cleaning.jpg)
 
 ### File Upload
 
@@ -25,9 +19,19 @@ Full-stack AI data analysis platform. Upload any dataset → auto-clean → visu
 
 ![Overview](screenshots/overview_.jpg)
 
+### Data Cleaning
+
+![Data Cleaning](screenshots/data_cleaning.jpg)
+
 ### Data Visualization
 
 ![Visualization](screenshots/visualize.jpg)
+
+### AI Chat
+
+![AI Chat](screenshots/ai-chat.jpg)
+
+
 
 ## Setup (Windows PowerShell)
 
